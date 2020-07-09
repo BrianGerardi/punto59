@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/punto59/static/css/main.5f361e03.chunk.css",
+    "main.js": "/punto59/static/js/main.51eeeb99.chunk.js",
+    "main.js.map": "/punto59/static/js/main.51eeeb99.chunk.js.map",
+    "runtime-main.js": "/punto59/static/js/runtime-main.dae99d34.js",
+    "runtime-main.js.map": "/punto59/static/js/runtime-main.dae99d34.js.map",
+    "static/js/2.ff063039.chunk.js": "/punto59/static/js/2.ff063039.chunk.js",
+    "static/js/2.ff063039.chunk.js.map": "/punto59/static/js/2.ff063039.chunk.js.map",
+    "index.html": "/punto59/index.html",
+    "precache-manifest.d766dd4a33fb605d266778c79850686f.js": "/punto59/precache-manifest.d766dd4a33fb605d266778c79850686f.js",
+    "service-worker.js": "/punto59/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/punto59/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.ff063039.chunk.js.LICENSE.txt": "/punto59/static/js/2.ff063039.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dae99d34.js",
+    "static/js/2.ff063039.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.51eeeb99.chunk.js"
+  ]
+}

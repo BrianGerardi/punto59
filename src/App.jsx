@@ -1,25 +1,25 @@
+import { Router, Route } from 'react-router-dom';
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  //Link,
-  NavLink,
-} from "react-router-dom"
+
 import Inicio from './Components/inicio';
 import Nosotros from './Components/nosotros';
 import Contacto from './Components/contacto';
 
+import { ThemeProvider } from "@material-ui/core/styles"
+import theme from "./temaConfig"
+
+import Navbar from "./components/Navbar"
+import { Typography, Switch } from '@material-ui/core';
+
+
 function App() {
   return (
-    <Router>
-      <div className="container mt-5">
-        <div className= "btn-group">
-          <NavLink to="/" exact className="btn-dark" activeClassName="active">Inicio</NavLink>
-          <NavLink to="/Nosotros" exact className="btn-dark" activeClassName="active">Nosotros</NavLink>
-          <NavLink to="/Contacto" exact className="btn-dark" activeClassName="active">Contacto</NavLink>
-        </div>
-        <hr />
+
+    
+
+    <ThemeProvider theme={theme}>
+      <Navbar></Navbar>
+      <Router>
         <Switch>
           <Route path="/Nosotros">
             <Nosotros />
@@ -31,8 +31,9 @@ function App() {
             <Inicio />
           </Route>
         </Switch>
-      </div>
     </Router>
+    </ThemeProvider>
+
 
   )
 }

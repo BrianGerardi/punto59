@@ -9,13 +9,11 @@ const useStyles = makeStyles(theme => ({
     title: {
         flexGrow: 1
     }
-
-
 }))
 const Navbar = () => {
     const classes = useStyles()
     return (
-        <div>
+        <>
             <AppBar>
                 <Toolbar>
                     <IconButton color="inherit" aria-label="menu1" ClassName=
@@ -40,9 +38,8 @@ const Navbar = () => {
                 </Button>
                 </Toolbar>
             </AppBar>
-            <div className={classes.offset}></div>
-
-        </div>
+           <div className={classes.offset}></div> 
+        </>
     )
 }
 export default Navbar

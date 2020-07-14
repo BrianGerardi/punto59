@@ -11,8 +11,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Navbar></Navbar>
-      {/*<Button variant="contained" color="primary">boton 1</Button>
-      <Button variant="contained" color="secondary">boton 2</Button>*/}
       <Typography variant="h1">texto de prueba</Typography>
     </ThemeProvider>
 

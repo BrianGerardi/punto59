@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Inicio from './Components/inicio';
-import Nosotros from './Components/nosotros';
-import Contacto from './Components/contacto';
+import Inicio from './components/inicio';
+import Nosotros from './components/nosotros';
+import Contacto from './components/contacto';
 import { ThemeProvider } from "@material-ui/core/styles"
 import theme from "./temaConfig"
 import { Typography, Switch } from '@material-ui/core';
-import Navbar from './Components/navbar';
+import Navbar from './components/navbar';
 
 
 function App() {

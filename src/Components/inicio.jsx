@@ -1,10 +1,8 @@
 import React from "react"
-
+import Banner from './banner';
 const Inicio = () => {
     return (
-        <div>
-            <h1>Inicio</h1>
-        </div>
+            <Banner></Banner>
     )
 }
 

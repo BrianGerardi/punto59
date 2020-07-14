@@ -21,14 +21,14 @@ const Navbar = () => {
                     <Typography variant="h6" className={classes.title}>
                         Punto 59
                 </Typography>
-                    <Button variant="text" color="secondary">
-                        Menu 1
+                    <Button href="/" variant="text" color="secondary">
+                        Inicio
                 </Button>
-                    <Button variant="text" color="secondary">
-                        Menu 2
+                    <Button href="/nosotros"variant="text" color="secondary">
+                        Nosotros
                 </Button>
-                    <Button variant="text" color="secondary">
-                        Menu 3
+                    <Button href="/contacto" variant="text" color="secondary">
+                        Contacto
                 </Button>
                     <Button variant="text" color="secondary">
                         Menu 4

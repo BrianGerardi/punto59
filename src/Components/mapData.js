@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Map from './map'
-import pepino from './pepino'
+import pepino from './entorno'
 
 const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${pepino.mapsKey}`
 

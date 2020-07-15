@@ -3,6 +3,7 @@ import Map from './map'
 import pepino from './entorno'
 
 const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${pepino.mapsKey}`
+const ALTURA_MAPA = "400px"
 
 class Mapa extends Component {
     constructor() {
@@ -18,7 +19,7 @@ class Mapa extends Component {
                 <Map
                     isMarkerShown
                     googleMapURL={mapURL}
-                    containerElement= {<div style={{ height: '400px' }}></div>}
+                    containerElement= {<div style={{ height: ALTURA_MAPA }}></div>}
                     mapElement={<div style={{ height: '100%' }}></div>}
                     loadingElement={<p>Cargando</p>}
                 />

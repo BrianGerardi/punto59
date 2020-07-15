@@ -7,7 +7,6 @@ const Inicio = () => {
         <div>
             <Banner></Banner> 
             <Mapa></Mapa>  
-            
         </div>
     );
 };

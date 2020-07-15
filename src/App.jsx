@@ -7,12 +7,8 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './temaConfig';
 import Navbar from './components/navbar';
 
-
 function App() {
     return (
-
-    
-
         <ThemeProvider theme={theme}>
             <Navbar></Navbar>
             <Router>
@@ -27,8 +23,6 @@ function App() {
                 </Route>
             </Router>
         </ThemeProvider>
-
-
     );
 }
 export default App;

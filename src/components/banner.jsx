@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
-
-import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.css';
+
+import React, { Component } from 'react';
 import Slider from 'react-slick';
 
 const photos = [
@@ -41,9 +41,9 @@ class Banner extends Component {
         return (
             <div className="App">
                 <Slider {...settings}>
-                    {photos.map((photo) => {
+                    {photos.map((photo, index) => {
                         return (
-                            <div>
+                            <div key={index}>
                                 <img width="100%"  src={photo.url}>
 
                                 </img>

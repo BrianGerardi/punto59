@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react';
 import Banner from './banner';
-import TextoInicio from "./text_inicio";
-import Mapa from './map'
+import TextoInicio from './text_inicio';
+import Mapa from './map';
 
 
 const Inicio = () => {
@@ -12,7 +12,7 @@ const Inicio = () => {
             <Mapa></Mapa>
         </div>
 
-    )
-}
+    );
+};
 
-export default Inicio
+export default Inicio;

@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import Map from './map'
-import pepino from './entorno'
+import React, { Component } from 'react';
+import Map from './map';
+import pepino from './entorno';
 
-const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${pepino.mapsKey}`
-const ALTURA_MAPA = "400px"
+const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${pepino.mapsKey}`;
+const ALTURA_MAPA = '400px';
 
 class Mapa extends Component {
     render() {
@@ -17,8 +17,8 @@ class Mapa extends Component {
                     loadingElement={<p>Cargando</p>}
                 /> 
             </div>
-        )
+        );
     }
-};
+}
 
-export default Mapa
+export default Mapa;

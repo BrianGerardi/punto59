@@ -6,7 +6,7 @@ import {
     Marker
     
 } from 'react-google-maps';
-const LAT_LNG = {lat: -38.548283, lng: -58.747728}
+const LAT_LNG = {lat: -38.548283, lng: -58.747728};
 
 const Map = (props) => {
     return (
@@ -19,4 +19,4 @@ const Map = (props) => {
     );
 };
 
-export default withScriptjs(withGoogleMap(Map))
+export default withScriptjs(withGoogleMap(Map));

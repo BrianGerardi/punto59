@@ -44,7 +44,7 @@ class Banner extends Component {
                     {photos.map((photo, index) => {
                         return (
                             <div key={index}>
-                                <img width="100%"  src={photo.url}>
+                                <img width="100%" alt='' src={photo.url}>
 
                                 </img>
                             </div>

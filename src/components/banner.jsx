@@ -1,7 +1,7 @@
-import React, {Component} from './node_modules/react';
-import './node_modules/slick-carousel/slick/slick.css'; 
-import './node_modules/slick-carousel/slick/slick-theme.css';
-import Slider from './node_modules/react-slick';
+import React, {Component} from 'react';
+import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
 
 const photos = [
     {

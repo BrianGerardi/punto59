@@ -1,6 +1,6 @@
 
-import React from './node_modules/react';
-import { AppBar, Typography, Toolbar, makeStyles, IconButton, Button, } from './node_modules/@material-ui/core';
+import React from 'react';
+import { AppBar, Typography, Toolbar, makeStyles, IconButton, Button, } from '@material-ui/core';
 const useStyles = makeStyles(theme => ({
     offset: theme.mixins.toolbar,
     menuButton: {

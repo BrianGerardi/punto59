@@ -1,14 +1,18 @@
-import React from 'react';
+import React from "react"
 import Banner from './banner';
-import Mapa from './mapData'
+import TextoInicio from "./text_inicio";
+import Mapa from './map'
+
 
 const Inicio = () => {
     return (
         <div>
-            <Banner></Banner> 
-            <Mapa></Mapa>  
+            <Banner></Banner>
+            <TextoInicio></TextoInicio>
+            <Mapa></Mapa>
         </div>
-    );
-};
 
-export default Inicio;
+    )
+}
+
+export default Inicio

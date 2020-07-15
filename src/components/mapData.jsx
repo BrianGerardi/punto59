@@ -6,13 +6,6 @@ const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${pepino.map
 const ALTURA_MAPA = "400px"
 
 class Mapa extends Component {
-    constructor() {
-        super()
-        this.state = {
-            name: 'react'
-        }
-    }
-
     render() {
         return (
             <div>
@@ -22,7 +15,7 @@ class Mapa extends Component {
                     containerElement= {<div style={{ height: ALTURA_MAPA }}></div>}
                     mapElement={<div style={{ height: '100%' }}></div>}
                     loadingElement={<p>Cargando</p>}
-                />
+                /> 
             </div>
         )
     }

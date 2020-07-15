@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { AppBar, Typography, Toolbar, makeStyles, IconButton, Button, } from '@material-ui/core';
 const useStyles = makeStyles(theme => ({
@@ -17,15 +16,14 @@ const Navbar = () => {
             <AppBar>
                 <Toolbar>
                     <IconButton color="inherit" aria-label="menu1" className=
-                        {classes.menuButton}>
-                    </IconButton>
+                        {classes.menuButton}></IconButton>
                     <Typography variant="h6" className={classes.title}>
                         Punto 59
                     </Typography>
                     <Button href="/" variant="text" color="secondary">
-                        Inicio
+                        Inicio2
                     </Button>
-                    <Button href="/nosotros" variant="text" color="secondary">
+                    <Button href="/nosotros"variant="text" color="secondary">
                         Nosotros
                     </Button>
                     <Button href="/contacto" variant="text" color="secondary">
@@ -39,7 +37,7 @@ const Navbar = () => {
                     </Button>
                 </Toolbar>
             </AppBar>
-            <div className={classes.offset}></div>
+            <div className={classes.offset}></div> 
         </>
     );
 };

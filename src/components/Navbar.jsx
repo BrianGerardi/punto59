@@ -16,7 +16,7 @@ const Navbar = () => {
         <>
             <AppBar>
                 <Toolbar>
-                    <IconButton color="inherit" aria-label="menu1" ClassName=
+                    <IconButton color="inherit" aria-label="menu1" className=
                         {classes.menuButton}></IconButton>
                     <Typography variant="h6" className={classes.title}>
                         Punto 59

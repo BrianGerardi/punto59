@@ -1,12 +1,14 @@
 import React from 'react';
 import Banner from './banner';
+import Mapa from './mapData'
 
 const Inicio = () => {
     return (
-        <>
-            <Banner></Banner>
-           
-        </>
+        <div>
+            <Banner></Banner> 
+            <Mapa></Mapa>  
+            
+        </div>
     );
 };
 

@@ -5,7 +5,6 @@ import Nosotros from './components/nosotros';
 import Contacto from './components/contacto';
 import { ThemeProvider } from "@material-ui/core/styles"
 import theme from "./temaConfig"
-import { Typography, Switch } from '@material-ui/core';
 import Navbar from './components/navbar';
 
 

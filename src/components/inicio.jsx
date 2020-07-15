@@ -1,6 +1,7 @@
 import React from "react"
 import Banner from './banner';
 import TextoInicio from "./text_inicio";
+import Map from './map'
 
 
 const Inicio = () => {
@@ -8,7 +9,7 @@ const Inicio = () => {
         <div>
             <Banner></Banner>
             <TextoInicio></TextoInicio>
- 
+            <Map></Map>
         </div>
 
     )

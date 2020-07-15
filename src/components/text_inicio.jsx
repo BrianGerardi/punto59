@@ -2,17 +2,14 @@ import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import Typography from "@material-ui/core/Typography"
 import 'fontsource-roboto';
-import { green } from "@material-ui/core/colors";
 
 const useStyle = makeStyles(
     {
         estiloTextoInicio: {
-            
             border: 0,
             borderRadius: 3,
             height: 48,
             padding: "0 30px",
-
         }
     }
 )

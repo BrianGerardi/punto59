@@ -1,5 +1,5 @@
-import { createMuiTheme } from "@material-ui/core/styles"
-import lightGreen from "@material-ui/core/colors/lightGreen"
+import { createMuiTheme } from '@material-ui/core/styles';
+import lightGreen from '@material-ui/core/colors/lightGreen';
 const theme = createMuiTheme({
     palette: {
         primary: {
@@ -9,5 +9,5 @@ const theme = createMuiTheme({
             main: lightGreen[200]
         }
     }
-})
+});
 export default theme;

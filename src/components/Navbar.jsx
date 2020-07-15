@@ -1,6 +1,6 @@
 
-import React from "react"
-import { AppBar, Typography, Toolbar, makeStyles, IconButton, Button, } from "@material-ui/core"
+import React from 'react';
+import { AppBar, Typography, Toolbar, makeStyles, IconButton, Button, } from '@material-ui/core';
 const useStyles = makeStyles(theme => ({
     offset: theme.mixins.toolbar,
     menuButton: {
@@ -9,9 +9,9 @@ const useStyles = makeStyles(theme => ({
     title: {
         flexGrow: 1
     }
-}))
+}));
 const Navbar = () => {
-    const classes = useStyles()
+    const classes = useStyles();
     return (
         <>
             <AppBar>
@@ -20,26 +20,26 @@ const Navbar = () => {
                         {classes.menuButton}></IconButton>
                     <Typography variant="h6" className={classes.title}>
                         Punto 59
-                </Typography>
+                    </Typography>
                     <Button href="/" variant="text" color="secondary">
                         Inicio
-                </Button>
+                    </Button>
                     <Button href="/nosotros"variant="text" color="secondary">
                         Nosotros
-                </Button>
+                    </Button>
                     <Button href="/contacto" variant="text" color="secondary">
                         Contacto
-                </Button>
+                    </Button>
                     <Button variant="text" color="secondary">
                         Menu 4
-                </Button>
+                    </Button>
                     <Button variant="text" color="secondary">
                         Menu 5
-                </Button>
+                    </Button>
                 </Toolbar>
             </AppBar>
-           <div className={classes.offset}></div> 
+            <div className={classes.offset}></div> 
         </>
-    )
-}
-export default Navbar
+    );
+};
+export default Navbar;

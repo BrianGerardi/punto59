@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
-
-import 'slick-carousel/slick/slick.css'; 
-import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick';
+import React, {Component} from './node_modules/react';
+import './node_modules/slick-carousel/slick/slick.css'; 
+import './node_modules/slick-carousel/slick/slick-theme.css';
+import Slider from './node_modules/react-slick';
 
 const photos = [
     {
@@ -21,7 +20,6 @@ const photos = [
         name: 'photo 4',
         url: 'https://pbs.twimg.com/profile_images/1146072983787724800/SElmsSlI_400x400.jpg'
     },
-  
 ];
 
 class Banner extends Component {
@@ -37,7 +35,6 @@ class Banner extends Component {
             autoplay: true,
             autoplaySpeed: 5000,
             className: 'slides',
-    
         };
         return (
             <div className="App">
@@ -46,7 +43,6 @@ class Banner extends Component {
                         return (
                             <div key={index}>
                                 <img height="100%" src={photo.url}>
-
                                 </img>
                             </div>
                         );

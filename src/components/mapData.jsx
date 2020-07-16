@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import Map from './map';
-import pepino from './entorno';
 
-const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${pepino.mapsKey}`;
+import entorno from './entorno';
+import Mapa from './map';
+
+const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${entorno.mapsKey}`;
 const ALTURA_MAPA = '400px';
 
-class Mapa extends Component {
+class MapaWrapper extends Component {
     render() {
         return (
             <div>
-                <Map
+                <Mapa
                     isMarkerShown
                     googleMapURL={mapURL}
                     containerElement= {<div style={{ height: ALTURA_MAPA }}></div>}
@@ -21,4 +22,4 @@ class Mapa extends Component {
     }
 }
 
-export default Mapa;
+export default MapaWrapper;

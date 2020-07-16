@@ -1,7 +1,8 @@
 import React from 'react';
+
 import Banner from './banner';
+import MapaWrapper from './mapData';
 import TextoInicio from './text_inicio';
-import Mapa from './map';
 
 
 const Inicio = () => {
@@ -9,7 +10,7 @@ const Inicio = () => {
         <div>
             <Banner></Banner>
             <TextoInicio></TextoInicio>
-            <Mapa></Mapa>
+            <MapaWrapper></MapaWrapper>
         </div>
 
     );

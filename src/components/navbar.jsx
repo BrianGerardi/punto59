@@ -1,5 +1,7 @@
 import React from 'react';
-import { AppBar, Typography, Toolbar, makeStyles, IconButton, Button, } from '@material-ui/core';
+import { AppBar,Toolbar, makeStyles, Button, } from '@material-ui/core';
+import Logo from '../assets/customPng/logosinBG.png';
+
 const useStyles = makeStyles(theme => ({
     offset: theme.mixins.toolbar,
     menuButton: {
@@ -15,11 +17,10 @@ const Navbar = () => {
         <>
             <AppBar>
                 <Toolbar>
-                    <IconButton color="inherit" aria-label="menu1" className=
-                        {classes.menuButton}></IconButton>
-                    <Typography variant="h6" className={classes.title}>
-                        Punto 59
-                    </Typography>
+                   
+                        <div className={classes.title}>
+                    <img src={Logo} height='80px' width='140px' alt=''></img>
+                    </div>
                     <Button href="/" variant="text" color="secondary">
                         Inicio2
                     </Button>

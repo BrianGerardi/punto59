@@ -11,8 +11,8 @@ const Inicio = () => {
         <div>
             <Banner></Banner>
             <TextoInicio></TextoInicio>
-            <MapaWrapper></MapaWrapper>
             <ServiciosGrid></ServiciosGrid>
+            <MapaWrapper></MapaWrapper>
         </div>
     );
 };

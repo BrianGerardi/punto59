@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8b71fb64c34a11de6c77e4fbeaaf9d2",
+    "revision": "f3528db83ee0dd33c5015ec029f50eac",
     "url": "/punto59/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/punto59/static/css/2.d82d73b1.chunk.css"
   },
   {
-    "revision": "d07193e628b5c28af8fe",
+    "revision": "1f94755bd222ee3f5ba9",
     "url": "/punto59/static/css/main.69eda509.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/punto59/static/js/2.95db704f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d07193e628b5c28af8fe",
-    "url": "/punto59/static/js/main.da3c59fb.chunk.js"
+    "revision": "1f94755bd222ee3f5ba9",
+    "url": "/punto59/static/js/main.f54a5e34.chunk.js"
   },
   {
     "revision": "f21faa027b1f4d4ba5d2",

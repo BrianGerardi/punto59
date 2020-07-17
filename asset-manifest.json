@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/punto59/static/css/main.69eda509.chunk.css",
-    "main.js": "/punto59/static/js/main.da3c59fb.chunk.js",
-    "main.js.map": "/punto59/static/js/main.da3c59fb.chunk.js.map",
+    "main.js": "/punto59/static/js/main.f54a5e34.chunk.js",
+    "main.js.map": "/punto59/static/js/main.f54a5e34.chunk.js.map",
     "runtime-main.js": "/punto59/static/js/runtime-main.dae99d34.js",
     "runtime-main.js.map": "/punto59/static/js/runtime-main.dae99d34.js.map",
     "static/css/2.d82d73b1.chunk.css": "/punto59/static/css/2.d82d73b1.chunk.css",
     "static/js/2.95db704f.chunk.js": "/punto59/static/js/2.95db704f.chunk.js",
     "static/js/2.95db704f.chunk.js.map": "/punto59/static/js/2.95db704f.chunk.js.map",
     "index.html": "/punto59/index.html",
-    "precache-manifest.d0e80bc87d0240d9909633aa358fd2ed.js": "/punto59/precache-manifest.d0e80bc87d0240d9909633aa358fd2ed.js",
+    "precache-manifest.5813dc41235623dde247a035733ff9fd.js": "/punto59/precache-manifest.5813dc41235623dde247a035733ff9fd.js",
     "service-worker.js": "/punto59/service-worker.js",
     "static/css/2.d82d73b1.chunk.css.map": "/punto59/static/css/2.d82d73b1.chunk.css.map",
     "static/css/main.69eda509.chunk.css.map": "/punto59/static/css/main.69eda509.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.d82d73b1.chunk.css",
     "static/js/2.95db704f.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.da3c59fb.chunk.js"
+    "static/js/main.f54a5e34.chunk.js"
   ]
 }

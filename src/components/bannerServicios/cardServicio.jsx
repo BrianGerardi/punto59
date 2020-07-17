@@ -27,13 +27,14 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function CardUbicacion() {
+export default function CardServicio(props) {
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
-
     const handleExpandClick = () => {
         setExpanded(!expanded);
     };
+
+    const { title, description, subheader, final } = props;
 
     return (
         <Card className={classes.root}>
@@ -41,14 +42,13 @@ export default function CardUbicacion() {
                 avatar={
                     <AddLocationIcon color='primary' style={{ fontSize: 40 }}></AddLocationIcon>
                 }
-                title="Ubicacion"
-                subheader="Calle falsa 123"
+                title={title}
+                subheader={subheader}
             />
-
             <CardContent>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    Desc del servicio ofrecido
-        </Typography>
+                    {description}
+                </Typography>
             </CardContent>
             <CardActions disableSpacing>
 
@@ -65,19 +65,10 @@ export default function CardUbicacion() {
             </CardActions>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
-                    <Typography paragraph>Desc:</Typography>
                     <Typography paragraph>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and s
-                        crambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-                        versions of Lorem Ipsum.
-          </Typography>
+                        {final}
+                    </Typography>
 
-                    <Typography>
-                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-          </Typography>
                 </CardContent>
             </Collapse>
         </Card>

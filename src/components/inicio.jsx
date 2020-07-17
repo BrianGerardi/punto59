@@ -1,8 +1,9 @@
 import React from 'react';
 
-import Banner from './banner';
+import Banner from './banner/banner';
 import MapaWrapper from './mapData';
 import TextoInicio from './text_inicio';
+import ServiciosGrid from './bannerServicios/serviciosGrid';
 
 
 const Inicio = () => {
@@ -11,8 +12,8 @@ const Inicio = () => {
             <Banner></Banner>
             <TextoInicio></TextoInicio>
             <MapaWrapper></MapaWrapper>
+            <ServiciosGrid></ServiciosGrid>
         </div>
-
     );
 };
 

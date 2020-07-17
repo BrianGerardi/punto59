@@ -17,7 +17,7 @@ const useStyle = makeStyles(
 function TextoInicio() {
     const classes = useStyle();
     return (
-        <>
+        <div>
             <Typography className={classes.estiloTextoInicio}
                 variant="h2" color="secondary" >
                 Texto de Prueba
@@ -27,7 +27,7 @@ function TextoInicio() {
                 variant="body1" color="secondary">
                 Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba 
             </Typography>
-        </>
+        </div>
     );
 }
 export default TextoInicio;

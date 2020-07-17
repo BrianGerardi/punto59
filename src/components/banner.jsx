@@ -43,9 +43,8 @@ class Banner extends Component {
                 <Slider {...settings}>
                     {photos.map((photo, index) => {
                         return (
-                            <div key={index}>
-                                <img width="100%" alt='' src={photo.url}>
-
+                            <div  key={index}>
+                                <img width="100%" height="500px" alt='' src={photo.url}>
                                 </img>
                             </div>
                         );

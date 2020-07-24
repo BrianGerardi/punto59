@@ -1,5 +1,5 @@
 import React from 'react';
-import Calendar from './calendario';
+import Calendar from './calendario/calendario';
 
 const Nosotros = () => {
     return (

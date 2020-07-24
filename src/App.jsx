@@ -7,7 +7,14 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './temaConfig';
 import Navbar from './components/navbar';
 import { Provider } from 'react-redux';
-import store from './components/redux/calendarioredux';
+import { eventosReducer } from './components/calendario/reducers/eventos'
+import { createStore, combineReducers} from 'redux' 
+
+const reducer = combineReducers ({
+    eventosReducer
+})
+
+const store = createStore (reducer) 
 
 function App() {
     return (

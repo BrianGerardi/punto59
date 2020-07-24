@@ -6,9 +6,12 @@ import Contacto from './components/contacto';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './temaConfig';
 import Navbar from './components/navbar';
+import { Provider } from 'react-redux';
+import store from './components/redux/calendarioredux';
 
 function App() {
     return (
+        <Provider store={store}> 
         <ThemeProvider theme={theme}>
             <Navbar></Navbar>
             <Router>
@@ -23,6 +26,7 @@ function App() {
                 </Route>
             </Router>
         </ThemeProvider>
+        </Provider>
     );
 }
 export default App;

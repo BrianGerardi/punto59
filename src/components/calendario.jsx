@@ -10,7 +10,6 @@ export default class Calendar extends Component {
                 events={[
                     {title: 'Cumpleanito', date: '2020-07-30'}
                 ]}
-
             />
         );
     }

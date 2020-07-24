@@ -21,13 +21,13 @@ const Navbar = () => {
                         <div className={classes.title}>
                     <img src={Logo} height='80px' width='140px' alt=''></img>
                     </div>
-                    <Button href="/" variant="text" color="secondary">
+                    <Button href="/punto59" variant="text" color="secondary">
                         Inicio2
                     </Button>
-                    <Button href="/nosotros"variant="text" color="secondary">
+                    <Button href="/punto59/nosotros"variant="text" color="secondary">
                         Nosotros
                     </Button>
-                    <Button href="/contacto" variant="text" color="secondary">
+                    <Button href="/punto59/contacto" variant="text" color="secondary">
                         Contacto
                     </Button>
                     <Button variant="text" color="secondary">

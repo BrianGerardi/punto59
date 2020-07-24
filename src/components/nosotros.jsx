@@ -1,9 +1,11 @@
 import React from 'react';
+import Calendar from './calendario';
 
 const Nosotros = () => {
     return (
         <div>
-            <h1>Nosotros</h1>
+            <hz></hz>
+            <Calendar></Calendar>
         </div>
     );
 };

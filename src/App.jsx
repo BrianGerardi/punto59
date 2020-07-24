@@ -12,13 +12,13 @@ function App() {
         <ThemeProvider theme={theme}>
             <Navbar></Navbar>
             <Router>
-                <Route path="/nosotros">
+                <Route path="/punto59/nosotros">
                     <Nosotros />
                 </Route>
-                <Route path="/contacto">
+                <Route path="/punto59/contacto">
                     <Contacto />
                 </Route>
-                <Route path="/" exact>
+                <Route path="/punto59" exact>
                     <Inicio />
                 </Route>
             </Router>

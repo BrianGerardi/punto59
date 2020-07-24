@@ -19,12 +19,12 @@ function TextoInicio() {
     return (
         <div>
             <Typography className={classes.estiloTextoInicio}
-                variant="h2" color="secondary" >
+                variant="h2" color="primary" >
                 Texto de Prueba
             </Typography>
             <hr></hr>
             <Typography
-                variant="body1" color="secondary">
+                variant="body1" color="primary">
                 Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba Texto de Prueba 
             </Typography>
         </div>

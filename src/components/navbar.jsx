@@ -18,8 +18,8 @@ const Navbar = () => {
             <AppBar>
                 <Toolbar>
                    
-                        <div className={classes.title}>
-                    <img src={Logo} height='80px' width='140px' alt=''></img>
+                    <div className={classes.title}>
+                        <img src={Logo} height='80px' width='140px' alt=''></img>
                     </div>
                     <Button href="/punto59" variant="text" color="secondary">
                         Inicio2

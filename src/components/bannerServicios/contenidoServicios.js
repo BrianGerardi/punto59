@@ -13,4 +13,4 @@ const textoGrid = [
     },
 ];
 
-export default textoGrid
+export default textoGrid;

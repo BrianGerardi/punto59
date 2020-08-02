@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f28ef006935d02b717122ff6f6c5052",
+    "revision": "0901ebc85c4fcb66788ba70e841953a1",
     "url": "/punto59/index.html"
   },
   {
-    "revision": "0926590839a5a999b34b",
+    "revision": "b8c190a9113da6aeda08",
     "url": "/punto59/static/css/2.c3bafe19.chunk.css"
   },
   {
-    "revision": "9e5c1855deaffa907414",
+    "revision": "f7475ebcf33c137776da",
     "url": "/punto59/static/css/main.69eda509.chunk.css"
   },
   {
-    "revision": "0926590839a5a999b34b",
-    "url": "/punto59/static/js/2.ca8b2f17.chunk.js"
+    "revision": "b8c190a9113da6aeda08",
+    "url": "/punto59/static/js/2.a0e66167.chunk.js"
   },
   {
     "revision": "4d729b88bbaba55a2f95b83620617d80",
-    "url": "/punto59/static/js/2.ca8b2f17.chunk.js.LICENSE.txt"
+    "url": "/punto59/static/js/2.a0e66167.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e5c1855deaffa907414",
-    "url": "/punto59/static/js/main.57080838.chunk.js"
+    "revision": "f7475ebcf33c137776da",
+    "url": "/punto59/static/js/main.0636fdb8.chunk.js"
   },
   {
     "revision": "f21faa027b1f4d4ba5d2",
